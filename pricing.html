@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Precios</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1A1A1A;
+            background-image: radial-gradient(circle, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+            background-size: 20px 20px;
+            color: #fff; /* Texto blanco */
+        }
+        /* Gradiente personalizado para la tarjeta Pro */
+        .pro-gradient {
+            background-image: linear-gradient(to bottom right, #8A2BE2, #FF1493, #00FF7F); /* Violeta, Rosa Intenso, Verde Primavera */
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center py-12 px-4 sm:px-6 lg:px-8">
+    <header class="w-full flex justify-between items-center p-4">
+        <img src="pai_logo.png" alt="Pai Logo" class="h-8 w-auto">
+        <nav>
+            <a href="index.html" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Inicio</a>
+            <a href="pricing.html" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Planes</a>
+            <a href="index.html" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contacto</a>
+        </nav>
+    </header>
+
+    <header class="text-center mb-12">
+        <h1 class="text-5xl font-bold mb-2">Precios</h1>
+        <p class="text-gray-400 text-lg">Elige el plan que mejor se adapte a tu negocio</p>
+    </header>
+
+    <section class="w-full max-w-6xl">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <!-- Tarjeta Explora (antes Hobby) -->
+            <div class="bg-gray-900 rounded-xl p-8 shadow-lg flex flex-col justify-between">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-2">Explora</h3>
+                    <p class="text-4xl font-bold text-white mb-6">Gratis</p>
+                    <p class="text-gray-400 mb-4">Incluye:</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center text-gray-300">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Acceso completo 30 días
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Análisis de impacto en ventas
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Segmentación por lealtad
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Ciclo de vida de clientes
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            1 tienda
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Tarjeta Crecimiento (antes Pro) -->
+            <div class="pro-gradient rounded-xl p-0.5 shadow-lg flex flex-col justify-between">
+                <div class="bg-gray-900 h-full rounded-xl p-8">
+                    <h3 class="text-2xl font-semibold mb-2">Crecimiento</h3>
+                    <p class="text-4xl font-bold text-white mb-6">$199<span class="text-xl text-gray-400"> / mes por tienda</span></p>
+                    <p class="text-gray-400 mb-4">Todo en Explora, más:</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center text-gray-300">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Segmenta clientes para campañas
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Detecta fugas de clientes temprano
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Automatiza alertas de riesgo y caída
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Actualización mensual automática
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Hasta 5 usuarios
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Tarjeta Alianza (Enterprise) (antes Ultra) -->
+            <div class="bg-gray-900 rounded-xl p-8 shadow-lg flex flex-col justify-between">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-2">Alianza</h3>
+                    <p class="text-4xl font-bold text-white mb-2">Personalizado</p>
+                    <p class="text-gray-400 text-sm mb-4">Para cadenas con múltiples tiendas y alto volumen de datos.</p>
+                    <p class="text-gray-400 mb-4">Todo en Crecimiento, más:</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center text-gray-300">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Integraciones directas (ERP, POS, CRM)
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Soporte y capacitación personalizada
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Ajustes según tu operación
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Acceso multi-nivel por roles
+                        </li>
+                        <li class="flex items-center text-gray-300">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Usuarios ilimitados
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        // El JavaScript para el selector de precios ya no es necesario ya que el selector ha sido eliminado.
+    </script>
+
+</body>
+</html>
