@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Planes</title>
-    <!-- Tailwind CSS CDN -->
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -21,20 +21,23 @@
         }
     </style>
 </head>
-<body class="min-h-screen flex flex-col items-center py-12 px-4 sm:px-6 lg:px-8">
-    <header class="w-full flex justify-between items-center p-4">
-        <img src="pai_logo.png" alt="Pai Logo" class="w-[100px]">
+    <body>
+    <header>
+        <a href="index.html"><img src="pai_logo.png" alt="Pai Logo" class="logo"></a>
         <nav>
-            <a href="index.html" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Inicio</a>
-            <a href="pricing.html" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Planes</a>
-            <a href="index.html" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contacto</a>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="products.html">Productos</a></li>
+                <li><a href="pricing.html">Precios</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+            </ul>
         </nav>
     </header>
 
-    <header class="text-center mb-12">
-        <h1 class="text-5xl font-bold mb-2">Planes</h1>
-        <p class="text-gray-400 text-lg">Elige el plan que mejor se adapte a tu negocio</p>
-    </header>
+    <div style="text-align: center; margin-bottom: 2rem;">
+        <h1 style="font-size: 3.5rem; font-weight: bold; color: #199D7F; text-shadow: 0 0 15px #199D7F;">Planes</h1>
+        <p style="font-size: 1.2rem; color: #f0f0f0;">Elige el plan que mejor se adapte a tu negocio</p>
+    </div>
 
     <section class="w-full max-w-6xl">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">

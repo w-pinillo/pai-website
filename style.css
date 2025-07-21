@@ -157,6 +157,12 @@ h3 {
     margin-top: 0;
 }
 
+.step-card img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
 #cta-final {
     text-align: center;
     padding: 3rem 2rem;
