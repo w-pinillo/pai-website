@@ -144,7 +144,7 @@ h3 {
 
 .feature-card,
 .step-card {
-    background-color: #3a3a3a;
+    background-color: transparent;
     padding: 1.5rem;
     border-radius: 8px;
     text-align: center;
