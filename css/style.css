@@ -156,6 +156,11 @@ h3 {
     margin: 0 auto;
 }
 
+.brand-name {
+    color: #199D7F;
+    font-weight: bold;
+}
+
 .features-grid,
 .steps-grid {
     display: grid;
