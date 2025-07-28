@@ -34,7 +34,7 @@
         <section id="hero">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Transforma tus datos en información estratégica.</h1>
+                    <h1 id="decrypted-text">Transforma tus datos en información estratégica.</h1>
                     <p>Aprovecha todo el potencial de la <strong>inteligencia artificial</strong> y la <strong>analítica</strong> para potenciar tu negocio.</p>
                 </div>
                 <div class="hero-image">
@@ -86,5 +86,16 @@
             <p>&copy; 2025 Pai. Todos los derechos reservados.</p>
         </div>
     </footer>
+    <script src="js/decrypted-text.js"></script>
+    <script>
+        const el = document.getElementById('decrypted-text');
+        const decrypted = new DecryptedText(el, {
+            speed: 50,
+            maxIterations: el.textContent.length,
+            sequential: true,
+            revealDirection: 'start',
+            animateOn: 'view'
+        });
+    </script>
 </body>
 </html>
