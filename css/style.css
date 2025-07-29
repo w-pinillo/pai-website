@@ -304,3 +304,31 @@ footer {
         text-align: center;
     }
 }
+
+.animated-border-button {
+  position: relative;
+  display: inline-block;
+  padding: 2px; /* This will be the border thickness */
+  border-radius: 7px; /* Slightly larger than the button's border-radius */
+  background: linear-gradient(to right, magenta, purple, #199D7F);
+  animation: rotate-gradient 4s linear infinite;
+  background-size: 200% 200%;
+  margin: 1rem auto;
+}
+
+.animated-border-button .cta-button {
+  margin: 0;
+  border-radius: 5px; /* Match the button's original border-radius */
+}
+
+@keyframes rotate-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
