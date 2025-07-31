@@ -1,0 +1,12 @@
+# Disallow access to the .git directory
+Disallow: /.git/
+
+User-agent: *
+Disallow: /images/
+
+# Allow all friendly crawlers full access
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://paidelta.com/sitemap.xml
