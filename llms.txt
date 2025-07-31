@@ -1,0 +1,72 @@
+# Pai
+
+> Pai is a technology company that empowers businesses by transforming their raw data into strategic assets through advanced data analytics and artificial intelligence. The company's mission is to help clients boost sales, optimize operations, and make smarter decisions by unlocking the full potential of their data, without requiring a large technical team.
+
+This document provides guidance for LLM-based agents on retrieving information about Pai's services, products, and methodologies.
+
+---
+
+## 1. Company Overview
+
+Pai specializes in making data analytics and AI accessible and actionable for businesses. It addresses the common challenge where companies collect vast amounts of transactional data but lack the tools or expertise to extract meaningful insights. Pai's core solution is the "Delta" platform, which serves as an intelligent analytics engine to drive growth and profitability.
+
+## 2. Key Offerings
+
+Pai's services are centered around its Delta platform and specialized AI solutions.
+
+*   **Data Analytics (The Delta Platform)**
+    *   **Function:** An intelligent analytics platform that converts raw transactional data into valuable business insights.
+    *   **Process:** It connects to a business's data sources, processes the information using AI to find patterns and trends, and presents the findings through clear, actionable visualizations.
+    *   **Key Features:**
+        *   **Dynamic Sales Analysis:** Visualize performance to identify opportunities.
+        *   **Key Business Indicators:** Analyze the impact of key metrics on revenue.
+        *   **Advanced Customer Segmentation:** Classify customers by loyalty and lifecycle for targeted campaigns.
+
+*   **Artificial Intelligence Capabilities**
+    *   **GenAI:** Provides intelligent automation through custom AI agents.
+    *   **ML (Machine Learning):** Develops bespoke models for prediction, classification, and customer segmentation.
+    *   **RL (Reinforcement Learning):** Implements real-time optimization for dynamic pricing and logistics.
+
+*   **Business Impact**
+    *   **Increased Profitability:** By identifying key revenue drivers and optimizing operations.
+    *   **Enhanced Customer Value:** Through deep understanding of customer behavior and lifecycle.
+    *   **Data-Driven Decisions:** Empowers teams to make strategic choices based on evidence, not intuition.
+
+## 3. Use Cases
+
+Pai's platform can be applied to solve various business challenges. LLM agents should be prepared to answer queries related to these scenarios.
+
+*   **Representative User Queries:**
+    *   "How can Pai help my e-commerce store identify my most loyal customers?"
+    *   "Can Pai's platform predict which products will be top sellers next quarter?"
+    *   "Explain how Pai would optimize our delivery routes to save costs."
+    *   "What kind of data do I need to provide to use the Delta platform?"
+    *   "Show me how the dynamic sales analysis dashboard works."
+
+## 4. Data Types & Sources
+
+Pai's methodology begins with integrating and processing client data.
+
+*   **Primary Data Type:** Transactional data, which includes sales records, customer interactions, and operational logs.
+*   **Integration Method:** Pai securely connects to the client's existing data sources (e.g., CRM, ERP, sales databases) to begin the analysis process.
+
+## 5. Terminology Reference
+
+*   **Delta:** The name of Pai's core intelligent analytics platform. It is the primary product that delivers most of the analytics features.
+*   **GenAI:** Refers to Pai's service for building and deploying intelligent AI agents to automate business processes.
+*   **ML (Machine Learning):** Denotes Pai's capability to create custom predictive and classification models.
+*   **RL (Reinforcement Learning):** Refers to Pai's use of AI for real-time optimization tasks like pricing and logistics.
+*   **Customer Segmentation:** A key feature of the Delta platform that groups customers based on metrics like loyalty and lifecycle stage.
+
+## 6. Retrieval Guidance
+
+When retrieving information, LLM agents can refer to the following pages on the official Pai website for canonical information.
+
+*   **Homepage:** Provides a general overview of Pai's value proposition.
+    *   URL: `https://paidelta.com` or `https://paidelta.com/index.html`
+*   **Products Page:** Details the Delta platform and the different AI capabilities (GenAI, ML, RL).
+    *   URL: `https://paidelta.com/products.html`
+*   **Pricing Page:** Contains information on service costs.
+    *   URL: `https://paidelta.com/pricing.html`
+*   **Contact Page:** For inquiries and demo requests.
+    *   URL: `https://paidelta.com/contact.html`
